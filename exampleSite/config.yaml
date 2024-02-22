@@ -116,7 +116,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/10Yw0Q3T5NFGpwYmAySZ3bihPmFQlT0zr/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1qVcIJ4hqqMttRaweZWynGQj3ke4Gr9bV/view?usp=sharing"
       download: true
       newPage: false
     socialNetworks:
@@ -215,9 +215,21 @@ params:
           - "Keras"
           - "Deep Learning"
 
+      - title: Yelp Business Performance Analysis
+        content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
+        image: /images/projects/yelp.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
+        badges:
+          - "Big Data"
+          - "Hadoop"
+          - "SQL"
+          - "PySpark" 
+
       - title: Disneyland Customer Experience Sentiment Analysis
         content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
-        image: /images/projects/disney.png
+        image: /images/projects/disneycloud.png
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Disney-Land-Reviews-Analysis
@@ -236,18 +248,6 @@ params:
           - "Machine Learning"
           - "Regression"
           - "Hyperparameter optimisation"
-
-      - title: Yelp Business Performance Analysis
-        content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
-        image: /images/projects/yelp.jpg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
-        badges:
-          - "Big Data"
-          - "Hadoop"
-          - "SQL"
-          - "PySpark"
 
       - title: Hotel Revenue Analysis
         content: Designed an interactive Tableau dashboard for comprehensive hotel revenue analysis, enabling key stakeholders to dynamically explore data on occupancy, average daily rates, and booking trends, which informed revenue optimization strategies.
@@ -269,6 +269,17 @@ params:
           - "R"
           - "Hypothesis Testing"
           - "Regression"
+
+      - title: Flight Management System
+        content: The Flight Management System is a comprehensive application designed to streamline the flight booking process, offering features like web check-in, real-time baggage tracking, and personalized notifications, enhancing overall travel convenience and efficiency.
+        image: /images/projects/flight.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Flight-Management-System
+        badges:
+          - "DBMS"
+          - "SQLite"
+
 
 
   #Contact
