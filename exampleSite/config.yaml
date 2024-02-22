@@ -121,12 +121,11 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-      customIcons:
-        - icon: "fa fa-envelope"
+        - icon: fa fa-envelope
           url: "mailto:pantangi.m@northeastern.edu"
-        - icon: "fab fa-github"
+        - icon: fab fa-github
           url: https://github.com/manmitha-p
-        - icon: "fab fa-linkedin"
+        - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/manmitha-pantangi/
       
 
