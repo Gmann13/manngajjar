@@ -44,7 +44,7 @@ params:
   title: "Manmitha Pantangi"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/NEUlogo.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -109,7 +109,7 @@ params:
     title: "Manmitha."
     subtitle: "Data Science & Data Analysis Enthusiast"
     content: "A data enthusiast committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
-    image: /images/hero.svg
+    image: /images/mee.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -122,11 +122,11 @@ params:
     socialLinks:
       fontAwesomeIcons:
       customIcons:
-        - icon: fa fa-envelope
+        - icon: "fa fa-envelope"
           url: "mailto:pantangi.m@northeastern.edu"
-        - icon: fab fa-github
+        - icon: "fab fa-github"
           url: https://github.com/manmitha-p
-        - icon: fab fa-linkedin
+        - icon: "fab fa-linkedin"
           url: https://www.linkedin.com/in/manmitha-pantangi/
       
 
@@ -134,7 +134,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I am an aspiring data analyst, passionate about leveraging the intersection of technology and analytics to solve complex problems. With a Master of Science in Analytics from Northeastern University, concentrating on Applied Machine Intelligence, and extensive experience in data analysis, modeling, and visualization, I specialize in using statistical methods and machine learning to drive strategic business decisions.
     skills:
@@ -156,19 +156,17 @@ params:
       - job: "Assistant Systems Engineer"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
-        content:
-          items:
-            - "Enhanced client application performance by 14% through strategic automation testing."
-            - "Generated efficient test plans and scripts using Ranorex, reducing testing time by 30% for large financial datasets."
-            - "Worked on GIT for robust version control, streamlining team collaboration, and project workflow in software development."
-            - "Deployed SSIS packages to refine ETL processes, yielding enhanced data accuracy and system reliability."
-            - "Developed intricate SSRS reports and optimized database procedures, significantly improving database performance and facilitating strategic decisions."
+        content: |-
+          - "Enhanced client application performance by 14% through strategic automation testing."
+          - "Generated efficient test plans and scripts using Ranorex, reducing testing time by 30% for large financial datasets."
+          - "Worked on GIT for robust version control, streamlining team collaboration, and project workflow in software development."
+          - "Deployed SSIS packages to refine ETL processes, yielding enhanced data accuracy and system reliability."
+          - "Developed intricate SSRS reports and optimized database procedures, significantly improving database performance and facilitating strategic decisions."
 
       - job: "Data Analyst Intern"
         company: "IkkatHub"
         date: "May 2020 - December 2020"
-        content: 
-         items:
+        content: |-
           - "Implemented an NLP-based recommender system to align products with user preferences, based on review analysis."
           - "Leveraged SQL for data handling and PowerBI for sales trend visualization, uncovering and addressing a 13% sales shift."
           - "Utilized machine learning for precise textile product categorization, boosting e-commerce recommendation relevance."
@@ -204,7 +202,7 @@ params:
     items:
       - title: Geospatial Analysis of Plastic Pollution
         content: Collaborated with the 5 Gyres Institute to conduct a year-long study on North American plastic pollution, utilized geospatial clustering for hotspot identification and created an interactive Tableau dashboard for enhanced stakeholder communication.
-        image: /images/projects/profile.png
+        image: /images/projects/plastic.png
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Predictive-Analysis
@@ -213,7 +211,7 @@ params:
 
       - title: Text Summarisation Model
         content: Developed a deep learning-based text summarization model using a Seq2Seq neural network with Bidirectional LSTM, trained on over 200,000 articles, resulting in high-precision, contextually relevant summaries validated by significant Rouge-L scores.
-        image: /images/projects/converter.jpg
+        image: /images/projects/text_summary.jpg
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Text-Summarization
@@ -225,7 +223,7 @@ params:
 
       - title: Disneyland Customer Experience Sentiment Analysis
         content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/disney.png
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Disney-Land-Reviews-Analysis
@@ -236,7 +234,7 @@ params:
 
       - title: "Retail Analytics: US Shopping Sales Forecasting"
         content: Implemented a comprehensive retail analytics project focusing on U.S. shopping sales forecasting using machine learning techniques and hyperparameter optimization, achieving precise sales predictions with an XGBoost model that demonstrated high accuracy and a robust R-squared value.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/retail.jpeg
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Retail-Analytics
@@ -247,7 +245,7 @@ params:
 
       - title: Yelp Business Performance Analysis
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/yelp.jpg
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
@@ -259,7 +257,7 @@ params:
 
       - title: Hotel Revenue Analysis
         content: Designed an interactive Tableau dashboard for comprehensive hotel revenue analysis, enabling key stakeholders to dynamically explore data on occupancy, average daily rates, and booking trends, which informed revenue optimization strategies.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/hotel.png
         featured:
           name: View Project
           link: https://public.tableau.com/app/profile/manmitha.pantangi/viz/RevenueInsightsinHospitalityDomain_17025111772270/RevenueDashboard
@@ -269,7 +267,7 @@ params:
 
       - title: Laptop Price Prediction
         content: Developed a sophisticated laptop price prediction model using R, incorporating multiple regression techniques and achieving higher accuracy with Lasso and Ridge regression, demonstrating R-squares of 75% and 76% respectively.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/laptop.png
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Laptop-Price-Prediction-
