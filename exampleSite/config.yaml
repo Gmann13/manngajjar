@@ -257,7 +257,7 @@ params:
           - "Regression"
           - "Hyperparameter optimisation"
 
-        - title: Yelp Business Performance Analysis
+      - title: Yelp Business Performance Analysis
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
         image: /images/projects/profile2.jpg
         featured:
@@ -269,7 +269,7 @@ params:
           - "SQL"
           - "PySpark"
 
-        - title: Hotel Revenue Analysis
+      - title: Hotel Revenue Analysis
         content: Designed an interactive Tableau dashboard for comprehensive hotel revenue analysis, enabling key stakeholders to dynamically explore data on occupancy, average daily rates, and booking trends, which informed revenue optimization strategies.
         image: /images/projects/profile2.jpg
         featured:
@@ -279,7 +279,7 @@ params:
           - "Tableau"
           - "Excel"
 
-        - title: Laptop Price Prediction
+      - title: Laptop Price Prediction
         content: Developed a sophisticated laptop price prediction model using R, incorporating multiple regression techniques and achieving higher accuracy with Lasso and Ridge regression, demonstrating R-squares of 75% and 76% respectively.
         image: /images/projects/profile2.jpg
         featured:
