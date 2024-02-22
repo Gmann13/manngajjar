@@ -76,7 +76,10 @@
                                 {{ end }}
                             </div>
 
-                            {{ .content | markdownify}}
+                            {{ range .content.items }}
+                                {{ . | markdownify }}
+                            {{ end }}
+
                         </div>
                         {{ else }}
                         <div 
@@ -116,7 +119,9 @@
                             </div>
 
                             <div class="pt-2">
-                                {{ .content | markdownify}}
+                                {{ range .content.items }}
+                                    {{ . | markdownify }}
+                                {{ end }}
                             </div>
                         </div>
                         {{ end }}
