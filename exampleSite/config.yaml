@@ -116,7 +116,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1qVcIJ4hqqMttRaweZWynGQj3ke4Gr9bV/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1uX2R60sQSzvrjbhSoyg3wnutJ10n4IbW/view?usp=sharing"
       download: true
       newPage: false
     socialNetworks:
@@ -151,18 +151,18 @@ params:
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
         content: |-
-          - "Deployed and managed end-to-end data warehousing processes on Microsoft SQL Server, ensuring efficient storage, retrieval, and management of large financial datasets."
-          - "Implemented SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes, resulting in a 25% improvement in data accuracy and system reliability."
-          - "Developed intricate SSRS (SQL Server Reporting Services) reports and optimized database procedures, significantly improving database performance by 40%."
-          - "Applied advanced Microsoft Excel and Tableau for preparation and visualization of business reports, enhancing strategic planning and decision-making."
+          - Deployed and managed end-to-end data warehousing processes on Microsoft SQL Server, ensuring efficient storage, retrieval, and management of large financial datasets.
+          - Implemented SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes, resulting in a 25% improvement in data accuracy and system reliability.
+          - Developed intricate SSRS (SQL Server Reporting Services) reports and optimized database procedures, significantly improving database performance by 40%.
+          - Applied advanced Microsoft Excel and Tableau for preparation and visualization of business reports, enhancing strategic planning and decision-making.
 
       - job: "Data Analyst Intern"
         company: "IkkatHub"
         date: "May 2020 - December 2020"
         content: |-
-          - "Improved inventory turnover by 10% by addressing slow-moving items using SQL queries and Microsoft SQL Server for inventory analysis."
-          - "Utilized Python's advanced analytics capabilities, employing libraries such as Pandas, NumPy for data manipulation and SciPy for A/B testing analysis, to refine product pricing strategies."
-          - "Crafted annual budgeting with Excel and Power BI, utilizing data interpretation techniques, achieved a 5% increase in forecast accuracy."
+          - Improved inventory turnover by 10% by addressing slow-moving items using SQL queries and Microsoft SQL Server for inventory analysis.
+          - Utilized Python's advanced analytics capabilities, employing libraries such as Pandas, NumPy for data manipulation and SciPy for A/B testing analysis, to refine product pricing strategies.
+          - Crafted annual budgeting with Excel and Power BI, utilizing data interpretation techniques, achieved a 5% increase in forecast accuracy.
 
   # Education
   education:
@@ -286,7 +286,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: pantangi.m@northeastern.edu
+    email: manmitha.p1@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
