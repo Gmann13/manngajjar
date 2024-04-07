@@ -147,7 +147,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Assistant Systems Engineer"
+      - job: "Assistant Systems Engineer (Data Analyst)"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
         content: |-
