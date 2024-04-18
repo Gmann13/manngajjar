@@ -155,19 +155,18 @@ params:
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
         content: |-
-          - "Enhanced client application performance by 14% through strategic automation testing."
-          - "Generated efficient test plans and scripts using Ranorex, reducing testing time by 30% for large financial datasets."
-          - "Worked on GIT for robust version control, streamlining team collaboration, and project workflow in software development."
-          - "Deployed SSIS packages to refine ETL processes, yielding enhanced data accuracy and system reliability."
-          - "Developed intricate SSRS reports and optimized database procedures, significantly improving database performance and facilitating strategic decisions."
+          - "Deployed and managed end-to-end data warehousing processes on Microsoft SQL Server, ensuring efficient storage, retrieval, and management of large financial datasets."
+          - "Implemented SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes, resulting in a 25% improvement in data accuracy and system reliability."
+          - "Developed intricate SSRS (SQL Server Reporting Services) reports and optimized database procedures, significantly improving database performance by 40%."
+          - "Applied advanced Microsoft Excel and Tableau for preparation and visualization of business reports, enhancing strategic planning and decision-making."
 
       - job: "Data Analyst Intern"
         company: "IkkatHub"
         date: "May 2020 - December 2020"
         content: |-
-          - "Implemented an NLP-based recommender system to align products with user preferences, based on review analysis."
-          - "Leveraged SQL for data handling and PowerBI for sales trend visualization, uncovering and addressing a 13% sales shift."
-          - "Utilized machine learning for precise textile product categorization, boosting e-commerce recommendation relevance."
+          - "Improved inventory turnover by 10% by addressing slow-moving items using SQL queries and Microsoft SQL Server for inventory analysis."
+          - "Utilized Python's advanced analytics capabilities, employing libraries such as Pandas, NumPy for data manipulation and SciPy for A/B testing analysis, to refine product pricing strategies."
+          - "Crafted annual budgeting with Excel and Power BI, utilizing data interpretation techniques, achieved a 5% increase in forecast accuracy."
 
   # Education
   education:
@@ -175,12 +174,12 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Masters in Analytics"
+      - title: "Masters in Data Analytics"
         school:
           name: "Northeastern University, Boston"
         date: "2022 - 2024"
         content: "Concentration: Applied Machine Intelligence"
-        GPA: "3.91 out of 4.0"
+        GPA: "3.90 out of 4.0"
         content: |-
           Relevant Coursework:
             - Database Management and Design, Data Mining, Data Warehousing & SQL, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning, Data Visualization.
@@ -191,14 +190,14 @@ params:
         GPA: "9.1 out of 10.0"
         content: |-
           Relevant Coursework:
-            - Problem Solving and Data Structures through C, Python Development, Probability and Statistics, Mathematics (Linear Algebra, Calculus)
+            - Python Development, Probability & Statistics, Problem Solving and Data Structures through C, Mathematics.
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Geospatial Data Analysis of Plastic Pollution
+      - title: Geospatial Data Analysis for Plastic Pollution
         content: Collaborated with the 5 Gyres Institute to conduct a year-long study on North American plastic pollution, utilized geospatial clustering for hotspot identification and created an interactive Tableau dashboard for enhanced stakeholder communication.
         image: /images/projects/plastic.png
         featured:
@@ -207,7 +206,7 @@ params:
         badges:
           - "Experiential Learning (Data Analyst)"
 
-      - title: Text Summarisation Model
+      - title: Automated Article Summarization
         content: Developed a deep learning-based text summarization model using a Seq2Seq neural network with Bidirectional LSTM, trained on over 200,000 articles, resulting in high-precision, contextually relevant summaries validated by significant Rouge-L scores.
         image: /images/projects/text_summary.jpg
         featured:
@@ -219,7 +218,7 @@ params:
           - "Keras"
           - "Deep Learning"
 
-      - title: Scalable Big Data Analytics of Yelp Reviews
+      - title: Big Data Analytics of Yelp Reviews
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
         image: /images/projects/yelp.jpg
         featured:
