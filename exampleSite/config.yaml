@@ -1,0 +1,333 @@
+baseURL: "https://manmithap.netlify.app"
+languageCode: "en-us"
+title: "Manmitha Pantangi"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Manmitha Pantangi"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/NEUlogo.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Manmitha Pantangi" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Manmitha."
+    subtitle: "Data Analyst & Data Scientist"
+    content: "A data analyst committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
+    image: /images/mee.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://drive.google.com/file/d/1L0PYH2wWkcSf4SmcsXIVyASk9gLD16Oe/view?usp=sharing"
+      download: true
+      newPage: false
+    socialNetworks:
+      github: https://github.com/manmitha-p
+      linkedin: https://www.linkedin.com/in/manmitha-pantangi/
+      
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am an aspiring data analyst/data scientist, passionate about leveraging the intersection of technology and analytics to solve complex problems. With a Master of Science in Analytics from Northeastern University, concentrating on Applied Machine Intelligence, and extensive experience in data analysis, modeling, and visualization, I specialize in using statistical methods and machine learning to drive strategic business decisions.
+    skills:
+      enable: true
+      title: "My expertise spans across critical data analytics tools such as:"
+      items:
+        - "Python"
+        - "R"
+        - "SQL"
+        - "Machine Learning"
+        - "Deep Learning"
+        - "Tableau"
+        - "PowerBI"
+        - "Big Data (Hadoop, Spark, Hive)"
+        - "Cloud-based analytical tools (Amazon Redshift, Snowflake, Google BigQuery)"
+        - "Microsoft Office Suite(Excel,Word,PowerPoint)"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Assistant Systems Engineer (Data Analyst)"
+        company: "Tata Consultancy Services (TCS)"
+        date: "July 2021 - August 2022"
+        content: |-
+          - "Enhanced client application performance by 14% through strategic automation testing."
+          - "Generated efficient test plans and scripts using Ranorex, reducing testing time by 30% for large financial datasets."
+          - "Worked on GIT for robust version control, streamlining team collaboration, and project workflow in software development."
+          - "Deployed SSIS packages to refine ETL processes, yielding enhanced data accuracy and system reliability."
+          - "Developed intricate SSRS reports and optimized database procedures, significantly improving database performance and facilitating strategic decisions."
+
+      - job: "Data Analyst Intern"
+        company: "IkkatHub"
+        date: "May 2020 - December 2020"
+        content: |-
+          - "Implemented an NLP-based recommender system to align products with user preferences, based on review analysis."
+          - "Leveraged SQL for data handling and PowerBI for sales trend visualization, uncovering and addressing a 13% sales shift."
+          - "Utilized machine learning for precise textile product categorization, boosting e-commerce recommendation relevance."
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Masters in Analytics"
+        school:
+          name: "Northeastern University, Boston"
+        date: "2022 - 2024"
+        content: "Concentration: Applied Machine Intelligence"
+        GPA: "3.91 out of 4.0"
+        content: |-
+          Relevant Coursework:
+            - Database Management and Design, Data Mining, Data Warehousing & SQL, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning, Data Visualization.
+      - title: "Bachelor of Technology in Mechanical Engineering"
+        school:
+          name: "Jawaharlal Nehru Technological University"
+        date: "2017 - 2021"
+        GPA: "9.1 out of 10.0"
+        content: |-
+          Relevant Coursework:
+            - Problem Solving and Data Structures through C, Python Development, Probability and Statistics, Mathematics (Linear Algebra, Calculus)
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Geospatial Data Analysis of Plastic Pollution
+        content: Collaborated with the 5 Gyres Institute to conduct a year-long study on North American plastic pollution, utilized geospatial clustering for hotspot identification and created an interactive Tableau dashboard for enhanced stakeholder communication.
+        image: /images/projects/plastic.png
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Predictive-Analysis
+        badges:
+          - "Experiential Learning (Data Analyst)"
+
+      - title: Text Summarisation Model
+        content: Developed a deep learning-based text summarization model using a Seq2Seq neural network with Bidirectional LSTM, trained on over 200,000 articles, resulting in high-precision, contextually relevant summaries validated by significant Rouge-L scores.
+        image: /images/projects/text_summary.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Text-Summarization
+        badges:
+          - "Python"
+          - "TensorFlow"
+          - "Keras"
+          - "Deep Learning"
+
+      - title: Scalable Big Data Analytics of Yelp Reviews
+        content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
+        image: /images/projects/yelp.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
+        badges:
+          - "Big Data"
+          - "Hadoop"
+          - "SQL"
+          - "PySpark" 
+
+      - title: NLP-Based Sentiment Analysis of Disneyland Experience
+        content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
+        image: /images/projects/disneycloud.png
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Disney-Land-Reviews-Analysis
+        badges:
+          - "Python"
+          - "NLP"
+          - "Tableau"
+
+      - title: "Retail Analytics: US Shopping Sales Forecasting"
+        content: Implemented a comprehensive retail analytics project focusing on U.S. shopping sales forecasting using machine learning techniques and hyperparameter optimization, achieving precise sales predictions with an XGBoost model that demonstrated high accuracy and a robust R-squared value.
+        image: /images/projects/retail.jpeg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Retail-Analytics
+        badges:
+          - "Machine Learning"
+          - "Regression"
+          - "Hyperparameter optimisation"
+
+      - title: Hotel Revenue Analysis
+        content: Designed an interactive Tableau dashboard for comprehensive hotel revenue analysis, enabling key stakeholders to dynamically explore data on occupancy, average daily rates, and booking trends, which informed revenue optimization strategies.
+        image: /images/projects/hotel.png
+        featured:
+          name: View Project
+          link: https://public.tableau.com/app/profile/manmitha.pantangi/viz/RevenueInsightsinHospitalityDomain_17025111772270/RevenueDashboard
+        badges:
+          - "Tableau"
+          - "Excel"
+
+      - title: Laptop Price Prediction
+        content: Developed a sophisticated laptop price prediction model using R, incorporating multiple regression techniques and achieving higher accuracy with Lasso and Ridge regression, demonstrating R-squares of 75% and 76% respectively.
+        image: /images/projects/laptop.png
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Laptop-Price-Prediction-
+        badges:
+          - "R"
+          - "Hypothesis Testing"
+          - "Regression"
+
+      - title: Flight Management System
+        content: The Flight Management System is a comprehensive application designed to streamline the flight booking process, offering features like web check-in, real-time baggage tracking, and personalized notifications, enhancing overall travel convenience and efficiency.
+        image: /images/projects/flight.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Flight-Management-System
+        badges:
+          - "DBMS"
+          - "SQLite"
+
+
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: manmitha.p1@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    socialNetworks:
+      github: https://github.com/manmitha-p
+      linkedin: https://www.linkedin.com/in/manmitha-pantangi/
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
