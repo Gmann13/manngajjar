@@ -107,8 +107,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Manmitha."
-    subtitle: "Data Science & Data Analysis Enthusiast"
-    content: "A data enthusiast committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
+    subtitle: "Data Analyst & Data Scientist"
+    content: "A data analyst committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
     image: /images/mee.jpg
     bottomImage:
       enable: true
@@ -130,16 +130,20 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am an aspiring data analyst, passionate about leveraging the intersection of technology and analytics to solve complex problems. With a Master of Science in Analytics from Northeastern University, concentrating on Applied Machine Intelligence, and extensive experience in data analysis, modeling, and visualization, I specialize in using statistical methods and machine learning to drive strategic business decisions.
+      I am an aspiring data analyst/data scientist, passionate about leveraging the intersection of technology and analytics to solve complex problems. With a Master of Science in Analytics from Northeastern University, concentrating on Applied Machine Intelligence, and extensive experience in data analysis, modeling, and visualization, I specialize in using statistical methods and machine learning to drive strategic business decisions.
     skills:
       enable: true
       title: "My expertise spans across critical data analytics tools such as:"
       items:
         - "Python"
+        - "R"
         - "SQL"
         - "Machine Learning"
+        - "Deep Learning"
         - "Tableau"
         - "PowerBI"
+        - "Big Data (Hadoop, Spark, Hive)"
+        - "Cloud-based analytical tools (Amazon Redshift, Snowflake, Google BigQuery)"
         - "Microsoft Office Suite(Excel,Word,PowerPoint)"
 
   # Experience
@@ -147,23 +151,22 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Assistant Systems Engineer"
+      - job: "Assistant Systems Engineer (Data Analyst)"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
         content: |-
-          - "Enhanced client application performance by 14% through strategic automation testing."
-          - "Generated efficient test plans and scripts using Ranorex, reducing testing time by 30% for large financial datasets."
-          - "Worked on GIT for robust version control, streamlining team collaboration, and project workflow in software development."
-          - "Deployed SSIS packages to refine ETL processes, yielding enhanced data accuracy and system reliability."
-          - "Developed intricate SSRS reports and optimized database procedures, significantly improving database performance and facilitating strategic decisions."
-
+          - "Deployed and managed end-to-end data warehousing processes on Microsoft SQL Server, ensuring efficient storage, retrieval, and management of large financial datasets."
+          - "Implemented SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes, resulting in a 25% improvement in data accuracy and system reliability."
+          - "Developed intricate SSRS (SQL Server Reporting Services) reports and optimized database procedures, significantly improving database performance by 40%."
+          - "Applied advanced Microsoft Excel and Tableau for preparation and visualization of business reports, enhancing strategic planning and decision-making."
+         
       - job: "Data Analyst Intern"
         company: "IkkatHub"
         date: "May 2020 - December 2020"
         content: |-
-          - "Implemented an NLP-based recommender system to align products with user preferences, based on review analysis."
-          - "Leveraged SQL for data handling and PowerBI for sales trend visualization, uncovering and addressing a 13% sales shift."
-          - "Utilized machine learning for precise textile product categorization, boosting e-commerce recommendation relevance."
+          - "Improved inventory turnover by 10% by addressing slow-moving items using SQL queries and Microsoft SQL Server for inventory analysis."
+          - "Utilized Python's advanced analytics capabilities, employing libraries such as Pandas, NumPy for data manipulation and SciPy for A/B testing analysis, to refine product pricing strategies."
+          - "Crafted annual budgeting with Excel and Power BI, utilizing data interpretation techniques, achieved a 5% increase in forecast accuracy."
 
   # Education
   education:
@@ -179,7 +182,7 @@ params:
         GPA: "3.91 out of 4.0"
         content: |-
           Relevant Coursework:
-            - Database Management Systems, Communication and Visualization for Data Analytics, Data Mining Applications, Data Warehousing and SQL, Data Management and Big Data, Applications of AI, Cloud Analytics
+            - Database Management and Design, Data Mining, Data Warehousing & SQL, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning, Data Visualization.
       - title: "Bachelor of Technology in Mechanical Engineering"
         school:
           name: "Jawaharlal Nehru Technological University"
@@ -187,14 +190,14 @@ params:
         GPA: "9.1 out of 10.0"
         content: |-
           Relevant Coursework:
-            - Problem Solving and Data Structures through C, Python Programming, Probability and Statistics, Mathematics (Linear Algebra, Calculus)
+            - Problem Solving and Data Structures through C, Python Development, Probability and Statistics, Mathematics (Linear Algebra, Calculus)
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Geospatial Analysis of Plastic Pollution
+      - title: Geospatial Data Analysis of Plastic Pollution
         content: Collaborated with the 5 Gyres Institute to conduct a year-long study on North American plastic pollution, utilized geospatial clustering for hotspot identification and created an interactive Tableau dashboard for enhanced stakeholder communication.
         image: /images/projects/plastic.png
         featured:
@@ -203,7 +206,7 @@ params:
         badges:
           - "Experiential Learning (Data Analyst)"
 
-      - title: Text Summarisation Model
+      - title: Automated Article Summarisation
         content: Developed a deep learning-based text summarization model using a Seq2Seq neural network with Bidirectional LSTM, trained on over 200,000 articles, resulting in high-precision, contextually relevant summaries validated by significant Rouge-L scores.
         image: /images/projects/text_summary.jpg
         featured:
@@ -215,7 +218,7 @@ params:
           - "Keras"
           - "Deep Learning"
 
-      - title: Yelp Business Performance Analysis
+      - title: Scalable Big Data Analytics of Yelp Reviews
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
         image: /images/projects/yelp.jpg
         featured:
@@ -227,7 +230,7 @@ params:
           - "SQL"
           - "PySpark" 
 
-      - title: Disneyland Customer Experience Sentiment Analysis
+      - title: NLP-Based Sentiment Analysis of Disneyland Experience
         content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
         image: /images/projects/disneycloud.png
         featured:
