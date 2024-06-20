@@ -107,7 +107,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Manmitha."
-    subtitle: "Data Analyst & Data Scientist"
+    subtitle: "Data Analyst/Business Intelligence Analyst"
     content: "A data analyst committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
     image: /images/mee.jpg
     bottomImage:
@@ -116,7 +116,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1L0PYH2wWkcSf4SmcsXIVyASk9gLD16Oe/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1dr6MlDBiRJkSoJXBkOck_tKhD5E6unXX/view?usp=sharing"
       download: true
       newPage: false
     socialNetworks:
@@ -130,43 +130,43 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am an aspiring data analyst/data scientist, passionate about leveraging the intersection of technology and analytics to solve complex problems. With a Master of Science in Analytics from Northeastern University, concentrating on Applied Machine Intelligence, and extensive experience in data analysis, modeling, and visualization, I specialize in using statistical methods and machine learning to drive strategic business decisions.
+      I am a data analytics professional, recently graduated from MS in Data Analytics with a concentration in Applied Machine Intelligence at Northeastern University. I am currently exploring new graduate roles within the data science and analytics sector. My academic journey has equipped me with an extensive toolkit in both theoretical and practical aspects of analytics, including deep dives into database management, data mining, warehousing, visualization and a broad spectrum of machine learning techniques.
     skills:
       enable: true
       title: "My expertise spans across critical data analytics tools such as:"
       items:
         - "Python"
-        - "R"
+        - "R (RStudio)"
         - "SQL"
         - "Machine Learning"
-        - "Deep Learning"
+        - "Power BI (DAX, Power Query)"
         - "Tableau"
-        - "PowerBI"
-        - "Big Data (Hadoop, Spark, Hive)"
-        - "Cloud-based analytical tools (Amazon Redshift, Snowflake, Google BigQuery)"
-        - "Microsoft Office Suite(Excel,Word,PowerPoint)"
+        - "GIT"
+        - "Big Data (Hadoop, Spark, Hive, Impala)"
+        - "Data Warehousing (Amazon Redshift, Snowflake, Google BigQuery)"
+        - "Microsoft Office Suite (Excel, Word, PowerPoint)"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Assistant Systems Engineer (Data Analyst)"
+      - job: "Data Analyst"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
         content: |-
-          - "Deployed and managed end-to-end data warehousing processes on Microsoft SQL Server, ensuring efficient storage, retrieval, and management of large financial datasets."
-          - "Implemented SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes, resulting in a 25% improvement in data accuracy and system reliability."
-          - "Developed intricate SSRS (SQL Server Reporting Services) reports and optimized database procedures, significantly improving database performance by 40%."
-          - "Applied advanced Microsoft Excel and Tableau for preparation and visualization of business reports, enhancing strategic planning and decision-making."
+          - Managed and analyzed over 10 gigabytes of financial data by delivering comprehensive data warehousing solutions through deploying and managing end-to-end initiatives using Microsoft SQL Server, focusing on data collection, profiling, efficient storage, modeling, and retrieval.
+          - Optimized 25% system performance for timely data analysis by developing and validating proof of concept with SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes.
+          - Boosted 40% database performance by creating intricate SSRS (SQL Server Reporting Services) and Power BI reports, optimizing database procedures.
+          - Verified and deployed fixed code on INT, CRT, DEV, and PRD servers, ensuring robust data integration and operational consistency by deploying SSIS packages through ServiceNow and GIT.
 
       - job: "Data Analyst Intern"
         company: "IkkatHub"
         date: "May 2020 - December 2020"
         content: |-
-          - "Improved inventory turnover by 10% by addressing slow-moving items using SQL queries and Microsoft SQL Server for inventory analysis."
-          - "Utilized Python's advanced analytics capabilities, employing libraries such as Pandas, NumPy for data manipulation and SciPy for A/B testing analysis, to refine product pricing strategies."
-          - "Crafted annual budgeting with Excel and Power BI, utilizing data interpretation techniques, achieved a 5% increase in forecast accuracy."
+          - Elevated 25% data quality of inventory and sales through data manipulation with Excel, utilizing Pivot tables and VLOOKUP, thereby optimizing inventory management and sales strategies.
+          - Minimized analysis time from 10 hours to 5 hours and doubled process efficiency by streamlining financial and operational data analysis using Python, thereby significantly enhancing business responsiveness.
+          - Improved customer retention by 15% through the development and implementation of customer demographic models in Tableau, increasing model accuracy.
 
   # Education
   education:
@@ -179,10 +179,10 @@ params:
           name: "Northeastern University, Boston"
         date: "2022 - 2024"
         content: "Concentration: Applied Machine Intelligence"
-        GPA: "3.90 out of 4.0"
+        GPA: "3.91 out of 4.0"
         content: |-
           Relevant Coursework:
-            - Database Management and Design, Data Mining, Data Warehousing & SQL, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning, Data Visualization.
+            - Database Management and Design, Data Mining, Data Warehousing & SQL, Data Visualization, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning.
       - title: "Bachelor of Technology in Mechanical Engineering"
         school:
           name: "Jawaharlal Nehru Technological University"
@@ -202,21 +202,9 @@ params:
         image: /images/projects/plastic.png
         featured:
           name: View Project
-          link: https://github.com/manmitha-p/Predictive-Analysis
+          link: https://github.com/manmitha-p/Geospatial_Analysis_of_Plastic_Pollution
         badges:
           - "Experiential Learning (Data Analyst)"
-
-      - title: Automated Article Summarization
-        content: Developed a deep learning-based text summarization model using a Seq2Seq neural network with Bidirectional LSTM, trained on over 200,000 articles, resulting in high-precision, contextually relevant summaries validated by significant Rouge-L scores.
-        image: /images/projects/text_summary.jpg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Text-Summarization
-        badges:
-          - "Python"
-          - "TensorFlow"
-          - "Keras"
-          - "Deep Learning"
 
       - title: Big Data Analytics of Yelp Reviews
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
@@ -228,7 +216,17 @@ params:
           - "Big Data"
           - "Hadoop"
           - "SQL"
-          - "PySpark" 
+          - "PySpark"
+
+    - title: Suicide Rates Overview (1985-2016)
+        content: Developed a Power BI dashboard from scratch to analyze global suicide rates, processing over 12,000 data points. Utilized Power Query and DAX to transform and clean data, and created interactive visualizations for metrics such as suicide rates, HDI, GDP per capita, and country.
+        image: /images/projects/yelp.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Suicide-Rates-Overview
+        badges:
+          - "Power BI (Power Query, DAX)"
+          - "MS Excel"
 
       - title: NLP-Based Sentiment Analysis of Disneyland Experience
         content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
@@ -240,17 +238,6 @@ params:
           - "Python"
           - "NLP"
           - "Tableau"
-
-      - title: "Retail Analytics: US Shopping Sales Forecasting"
-        content: Implemented a comprehensive retail analytics project focusing on U.S. shopping sales forecasting using machine learning techniques and hyperparameter optimization, achieving precise sales predictions with an XGBoost model that demonstrated high accuracy and a robust R-squared value.
-        image: /images/projects/retail.jpeg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Retail-Analytics
-        badges:
-          - "Machine Learning"
-          - "Regression"
-          - "Hyperparameter optimisation"
 
       - title: Hotel Revenue Analysis
         content: Designed an interactive Tableau dashboard for comprehensive hotel revenue analysis, enabling key stakeholders to dynamically explore data on occupancy, average daily rates, and booking trends, which informed revenue optimization strategies.
