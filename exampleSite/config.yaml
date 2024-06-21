@@ -218,7 +218,7 @@ params:
           - "SQL"
           - "PySpark"
 
-    - title: Suicide Rates Overview (1985-2016)
+      - title: Suicide Rates Overview (1985-2016)
         content: Developed a Power BI dashboard from scratch to analyze global suicide rates, processing over 12,000 data points. Utilized Power Query and DAX to transform and clean data, and created interactive visualizations for metrics such as suicide rates, HDI, GDP per capita, and country.
         image: /images/projects/yelp.jpg
         featured:
