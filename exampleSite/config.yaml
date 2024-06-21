@@ -208,6 +208,18 @@ params:
           - "Tableau"
           - "Python"
 
+      - title: Big Data Analytics of Yelp Reviews
+        content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
+        image: /images/projects/yelp.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
+        badges:
+          - "Big Data"
+          - "Hadoop"
+          - "SQL"
+          - "PySpark"
+
       - title: Video Games Market Analysis
         content: Utilized AWS cloud analytics tools to analyze extensive video game sales data, applying predictive modeling and comprehensive data visualization to uncover insights into sales trends, genre popularity, and regional market preferences, significantly enhancing the understanding of market dynamics and informing strategic decision-making in the video game industry.
         image: /images/projects/dashboard.png
@@ -220,18 +232,6 @@ params:
           - "QuickSight"
           - "Amazon Sagemaker"
           - "MS Excel"
-
-      - title: Big Data Analytics of Yelp Reviews
-        content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
-        image: /images/projects/yelp.jpg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
-        badges:
-          - "Big Data"
-          - "Hadoop"
-          - "SQL"
-          - "PySpark"
 
       - title: Suicide Rates Overview (1985-2016)
         content: Developed a Power BI dashboard from scratch to analyze global suicide rates, processing over 12,000 data points. Utilized Power Query and DAX to transform and clean data, and created interactive visualizations for metrics such as suicide rates, HDI, GDP per capita, and country.
