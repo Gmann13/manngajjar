@@ -109,7 +109,7 @@ params:
     title: "Manmitha."
     subtitle: "Data Analyst/Business Intelligence Analyst"
     content: "A data analyst committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
-    image: /images/mee.jpg
+    image: /images/myself.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -128,7 +128,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.jpg"
+    image: "/images/my.jpg"
     content: |-
       I am a data analytics professional, recently graduated from MS in Data Analytics with a concentration in Applied Machine Intelligence at Northeastern University. I am currently exploring new graduate roles within the data science and analytics sector. My academic journey has equipped me with an extensive toolkit in both theoretical and practical aspects of analytics, including deep dives into database management, data mining, warehousing, visualization and a broad spectrum of machine learning techniques.
     skills:
@@ -139,9 +139,9 @@ params:
         - "R (RStudio)"
         - "SQL"
         - "Machine Learning"
-        - "Power BI (DAX, Power Query)"
-        - "Tableau"
         - "GIT"
+        - "Tableau"
+        - "Power BI (DAX, Power Query)"
         - "Big Data (Hadoop, Spark, Hive, Impala)"
         - "Data Warehousing (Amazon Redshift, Snowflake, Google BigQuery)"
         - "Microsoft Office Suite (Excel, Word, PowerPoint)"
