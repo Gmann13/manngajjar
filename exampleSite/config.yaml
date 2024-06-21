@@ -205,6 +205,21 @@ params:
           link: https://github.com/manmitha-p/Geospatial_Analysis_of_Plastic_Pollution
         badges:
           - "Experiential Learning (Data Analyst)"
+          - "Tableau"
+          - "Python"
+
+      - title: Video Games Market Analysis
+        content: Utilized AWS cloud analytics tools to analyze extensive video game sales data, applying predictive modeling and comprehensive data visualization to uncover insights into sales trends, genre popularity, and regional market preferences, significantly enhancing the understanding of market dynamics and informing strategic decision-making in the video game industry.
+        image: /images/projects/dashboard.png
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Video-Games-Market-Analysis
+        badges:
+          - "AWS S3"
+          - "AWS Glue (AWS Athena)"
+          - "QuickSight"
+          - "Amazon Sagemaker"
+          - "MS Excel"
 
       - title: Big Data Analytics of Yelp Reviews
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
@@ -220,13 +235,24 @@ params:
 
       - title: Suicide Rates Overview (1985-2016)
         content: Developed a Power BI dashboard from scratch to analyze global suicide rates, processing over 12,000 data points. Utilized Power Query and DAX to transform and clean data, and created interactive visualizations for metrics such as suicide rates, HDI, GDP per capita, and country.
-        image: /images/projects/yelp.jpg
+        image: /images/projects/powerbi.jpg
         featured:
           name: View Project
           link: https://github.com/manmitha-p/Suicide-Rates-Overview
         badges:
           - "Power BI (Power Query, DAX)"
           - "MS Excel"
+
+      - title: Flight Management System
+        content: The Flight Management System is a comprehensive application designed to streamline the flight booking process, offering features like web check-in, real-time baggage tracking, and personalized notifications, enhancing overall travel convenience and efficiency.
+        image: /images/projects/flight.jpg
+        featured:
+          name: View Project
+          link: https://github.com/manmitha-p/Flight-Management-System
+        badges:
+          - "SQL"
+          - "DBMS"
+          - "SQLite"
 
       - title: NLP-Based Sentiment Analysis of Disneyland Experience
         content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
@@ -259,17 +285,6 @@ params:
           - "R"
           - "Hypothesis Testing"
           - "Regression"
-
-      - title: Flight Management System
-        content: The Flight Management System is a comprehensive application designed to streamline the flight booking process, offering features like web check-in, real-time baggage tracking, and personalized notifications, enhancing overall travel convenience and efficiency.
-        image: /images/projects/flight.jpg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Flight-Management-System
-        badges:
-          - "DBMS"
-          - "SQLite"
-
 
 
   #Contact
