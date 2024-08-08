@@ -154,6 +154,7 @@ params:
       - job: "Data Research Analyst"
         company: "Rebecca Everlene Trust Company"
         date: "July 2024 - Present"
+        tab_id: "rebecca"
         content: |-
           - Streamlined data analysis workflows with Python and SQL, optimizing overall data extraction time by 15%.
           - Developed and tested initial predictive models using machine learning techniques, providing foundational insights and setting the stage for advanced analytics.
@@ -161,6 +162,7 @@ params:
       - job: "Data Analyst"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
+        tab_id: "tcs"
         content: |-
           - Utilized advanced SQL to analyze crucial banking operations such as corporate actions, joint accounts, transactions, customer due diligence, and risk assessment.
           - Built robust SQL Server Integration Services (SSIS) workflows to streamline data processing, resulting in a 20% increase in data processing efficiency.
