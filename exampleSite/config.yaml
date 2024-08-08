@@ -151,14 +151,13 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-     - job: "Data Research Analyst"
+      - job: "Data Research Analyst"
         company: "Rebecca Everlene Trust Company"
         date: "July 2024 - Present"
         content: |-
           - Streamlined data analysis workflows with Python and SQL, optimizing overall data extraction time by 15%.
           - Developed and tested initial predictive models using machine learning techniques, providing foundational insights and setting the stage for advanced analytics.
       
-
       - job: "Data Analyst"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
