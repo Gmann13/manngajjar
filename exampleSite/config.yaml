@@ -115,8 +115,8 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "https://drive.google.com/file/d/1dr6MlDBiRJkSoJXBkOck_tKhD5E6unXX/view?usp=sharing"
+      name: "RESUME"
+      url: "https://drive.google.com/file/d/1bkW8gXqdoWgPWLaZaNR9ptGCrFFDWMPi/view?usp=sharing"
       download: true
       newPage: false
     socialNetworks:
@@ -141,9 +141,9 @@ params:
         - "Machine Learning"
         - "GIT"
         - "Tableau"
-        - "Power BI (DAX, Power Query)"
-        - "Big Data (Hadoop, Spark, Hive, Impala)"
-        - "Data Warehousing (Amazon Redshift, Snowflake, Google BigQuery)"
+        - "Power BI"
+        - "Big Data"
+        - "Data Management and Warehousing"
         - "Microsoft Office Suite (Excel, Word, PowerPoint)"
 
   # Experience
@@ -151,22 +151,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+     - job: "Data Research Analyst"
+        company: "Rebecca Everlene Trust Company"
+        date: "July 2024 - Present"
+        content: |-
+          - Streamlined data analysis workflows with Python and SQL, optimizing overall data extraction time by 15%.
+          - Developed and tested initial predictive models using machine learning techniques, providing foundational insights and setting the stage for advanced analytics.
+      
+
       - job: "Data Analyst"
         company: "Tata Consultancy Services (TCS)"
         date: "July 2021 - August 2022"
         content: |-
-          - Managed and analyzed over 10 gigabytes of financial data by delivering comprehensive data warehousing solutions through deploying and managing end-to-end initiatives using Microsoft SQL Server, focusing on data collection, profiling, efficient storage, modeling, and retrieval.
-          - Optimized 25% system performance for timely data analysis by developing and validating proof of concept with SSIS (SQL Server Integration Services) packages to refine ETL (Extract, Transform, Load) processes.
-          - Boosted 40% database performance by creating intricate SSRS (SQL Server Reporting Services) and Power BI reports, optimizing database procedures.
-          - Verified and deployed fixed code on INT, CRT, DEV, and PRD servers, ensuring robust data integration and operational consistency by deploying SSIS packages through ServiceNow and GIT.
-
-      - job: "Data Analyst Intern"
-        company: "IkkatHub"
-        date: "May 2020 - December 2020"
-        content: |-
-          - Elevated 25% data quality of inventory and sales through data manipulation with Excel, utilizing Pivot tables and VLOOKUP, thereby optimizing inventory management and sales strategies.
-          - Minimized analysis time from 10 hours to 5 hours and doubled process efficiency by streamlining financial and operational data analysis using Python, thereby significantly enhancing business responsiveness.
-          - Improved customer retention by 15% through the development and implementation of customer demographic models in Tableau, increasing model accuracy.
+          - Utilized advanced SQL to analyze crucial banking operations such as corporate actions, joint accounts, transactions, customer due diligence, and risk assessment.
+          - Built robust SQL Server Integration Services (SSIS) workflows to streamline data processing, resulting in a 20% increase in data processing efficiency.
+          - Worked collaboratively with cross-functional teams to implement real-time transaction updates using SSIS ETL (Extract, Transform, Load) pipelines, enhancing transaction accuracy and speed.
+          - Improved financial data quality by implementing cleansing techniques and validation checks using advanced Python libraries and Excel, reducing inconsistencies by 25%.
+          - Enhanced 50+ data pipelines using partitioning, cutting data load times by 30% and automated weekly financial reporting using SQL and PowerBI by converting customer transaction data into actionable insights.
 
   # Education
   education:
@@ -183,7 +184,7 @@ params:
         content: |-
           Relevant Coursework:
             - Database Management and Design, Data Mining, Data Warehousing & SQL, Data Visualization, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning.
-      - title: "Bachelor of Technology in Mechanical Engineering"
+      - title: "Bachelor of Engineering"
         school:
           name: "Jawaharlal Nehru Technological University"
         date: "2017 - 2021"
