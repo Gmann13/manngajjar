@@ -130,8 +130,7 @@ params:
     title: "About Me"
     image: "/images/my.jpg"
     content: |-
-      I am a data analytics professional, recently graduated from MS in Data Analytics with a concentration in Applied Machine Intelligence at Northeastern University. I am currently exploring new graduate roles within the data science and analytics sector. My academic journey has equipped me with an extensive toolkit in both theoretical and practical aspects of analytics, including deep dives into database management, data mining, warehousing, visualization and a broad spectrum of machine learning techniques.
-    skills:
+      I am a Highly skilled Data Analyst, Business Analyst and Machine learning enthusiast with extensive experience in data analysis, predictive modeling, and business intelligence. Proficient in SQL, Python, and advanced analytics tools, with expertise in designing data-driven solutions that enhance decision-making and operational efficiency. Proven ability to deliver impactful insights through data visualization and collaboration with cross-functional teams. Dedicated to driving innovation and solving complex business problems.
       enable: true
       title: "My expertise spans across critical data analytics tools such as:"
       items:
@@ -307,7 +306,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: manmitha.p1@gmail.com
+    email: mann.gajjar02@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -317,8 +316,8 @@ params:
 
   footer:
     socialNetworks:
-      github: https://github.com/manmitha-p
-      linkedin: https://www.linkedin.com/in/manmitha-pantangi/
+      github: https://github.com/Gmann13
+      linkedin: https://www.linkedin.com/in/manngajjar/
 
   # List pages like blogs and posts
   listPages:
