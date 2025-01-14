@@ -1,6 +1,6 @@
-baseURL: "https://manmithap.netlify.app"
+baseURL: "https://manngajjar.netlify.app"
 languageCode: "en-us"
-title: "Manmitha Pantangi"
+title: "Gajjar Mann Bipinchandra"
 theme: hugo-profile
 
 outputs:
@@ -41,7 +41,7 @@ markup:
     #   weight: 2
 
 params:
-  title: "Manmitha Pantangi"
+  title: "Gajjar Mann Bipinchandra"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/NEUlogo.png"
@@ -91,7 +91,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Manmitha Pantangi" # Brand name for the brand | default is the title variable
+    brandName: "Gajjar Mann Bipinchandra" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -106,8 +106,8 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Manmitha."
-    subtitle: "Data Analyst/Business Intelligence Analyst"
+    title: "Mann."
+    subtitle: "Data Analyst/Business Intelligence Analyst/Data Scientist/Machine learning Engineer"
     content: "A data analyst committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
     image: /images/myself.jpg
     bottomImage:
@@ -120,8 +120,8 @@ params:
       download: true
       newPage: false
     socialNetworks:
-      github: https://github.com/manmitha-p
-      linkedin: https://www.linkedin.com/in/manmitha-pantangi/
+      github: https://github.com/Gmann13
+      linkedin: https://www.linkedin.com/in/manngajjar/
       
 
   # About
@@ -151,48 +151,61 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Data Research Analyst"
+      - job: "Data Analyst/Project Manager"
         company: "Rebecca Everlene Trust Company"
-        date: "July 2024 - Present"
+        date: "October 2024 - Present"
         tab_id: "rebecca"
         content: |-
-          - Streamlined data analysis workflows with Python and SQL, optimizing overall data extraction time by 15%.
-          - Developed and tested initial predictive models using machine learning techniques, providing foundational insights and setting the stage for advanced analytics.
+          - Gathered and analyzed data from JIRA and monday.com, ensuring team activities were logged consistently, resulting in improved transparency and workflow efficiency.
+          - Managed MySQL databases to ensure accuracy and consistency of data infrastructure.
+          - Built and maintained interactive dashboards using Tableau for real-time insights, enhancing operational efficiency by 20%.
+          - Applied Python scripts and Alteryx workflows to automate data processing, reducing manual effort by 40%.
+          - Supported end-users with data access, training, and troubleshooting to ensure seamless utilization of systems.
       
-      - job: "Data Analyst"
-        company: "Tata Consultancy Services (TCS)"
-        date: "July 2021 - August 2022"
-        tab_id: "tcs"
+      - job: "Data/Business Analyst"
+        company: "The Roux Institute"
+        date: "July 2023 - December 2023"
+        tab_id: "Roux"
         content: |-
-          - Utilized advanced SQL to analyze crucial banking operations such as corporate actions, joint accounts, transactions, customer due diligence, and risk assessment.
-          - Built robust SQL Server Integration Services (SSIS) workflows to streamline data processing, resulting in a 20% increase in data processing efficiency.
-          - Worked collaboratively with cross-functional teams to implement real-time transaction updates using SSIS ETL (Extract, Transform, Load) pipelines, enhancing transaction accuracy and speed.
-          - Improved financial data quality by implementing cleansing techniques and validation checks using advanced Python libraries and Excel, reducing inconsistencies by 25%.
-          - Enhanced 50+ data pipelines using partitioning, cutting data load times by 30% and automated weekly financial reporting using SQL and PowerBI by converting customer transaction data into actionable insights.
-
+          - Conducted data analysis and market research for healthcare startups, boosting customer engagement by 25% through actionable insights.
+          - Developed data-driven solutions, increasing predicted revenue by 15%.
+          - Designed and presented dashboards using Power BI to effectively communicate trends and performance metrics.
+          - Collaborated with cross-functional teams to improve operational efficiency by 10%.
+          
+      - job: "Data Analyst"
+        company: "Bion International Pvt Ltd"
+        date: "May 2019 - August 2022"
+        tab_id: "Bion"
+        content: |-
+          - Led transformative initiatives that enhanced decision-making speed by 20% through advanced data-driven insights and strategic analysis for company leadership.
+          - Authored comprehensive marketing and supply chain performance reports, successfully reducing logistics costs by 10% by identifying and addressing inefficiencies.
+          - Developed scalable SQL-based models and innovative Python scripts to streamline data analysis, significantly boosting operational efficiency and automating repetitive tasks.
+          - Reengineered delivery workflows, resolving critical shipment issues and improving customer satisfaction metrics through precise data interventions and proactive problem-solving.
+          - Implemented process automation that reduced manual reporting time by 30%, enabling faster access to insights and improved resource allocation.
+          
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Masters in Data Analytics"
+      - title: "Masters in Engineering Management"
         school:
           name: "Northeastern University, Boston"
         date: "2022 - 2024"
-        content: "Concentration: Applied Machine Intelligence"
-        GPA: "3.91 out of 4.0"
+        content: "Concentration: Data Analytics and Machine Learning Engineering"
+        GPA: "3.4 out of 4.0"
         content: |-
           Relevant Coursework:
-            - Database Management and Design, Data Mining, Data Warehousing & SQL, Data Visualization, Big Data, Cloud Analytics, Fundamentals and Applications of Artificial Intelligence (AI), Machine Learning.
-      - title: "Bachelor of Engineering"
+            - Database Management and Design, Data Mining, Data Warehousing & SQL, Data Visualization, Machine Learning, Sociotechnical Systems, Project Management, Deterministic Operations Research.
+      - title: "Bachelor of Technology in Mechatronics Engineering"
         school:
-          name: "Jawaharlal Nehru Technological University"
-        date: "2017 - 2021"
-        GPA: "9.1 out of 10.0"
+          name: "Ganpat University"
+        date: "2018 - 2022"
+        GPA: "3.5 out of 4"
         content: |-
           Relevant Coursework:
-            - Python Development, Probability & Statistics, Problem Solving and Data Structures through C, Mathematics.
+            - Coursework: Computational Intelligence Techniques, Robotics, Digital Image Processing and machine vision, Industrial Internet of things, Sensor system, Advanced Machine Learning.
 
   # projects
   projects:
