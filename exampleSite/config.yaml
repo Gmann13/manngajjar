@@ -211,16 +211,16 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Geospatial Data Analysis for Plastic Pollution
-        content: Collaborated with the 5 Gyres Institute to conduct a year-long study on North American plastic pollution, utilized geospatial clustering for hotspot identification and created an interactive Tableau dashboard for enhanced stakeholder communication.
-        image: /images/projects/plastic.png
+      - title: Traffic Volume Prediction
+        content: This project utilizes a machine learning approach with a RandomForestRegressor model to predict traffic volume based on the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository. By leveraging features like weather conditions, date-time attributes, and lagged traffic volumes, the project aims to provide accurate predictions for traffic management and urban planning.
         featured:
           name: View Project
-          link: https://github.com/manmitha-p/Geospatial_Analysis_of_Plastic_Pollution
+          link: https://github.com/Gmann13/Traffic-Projection
         badges:
           - "Experiential Learning (Data Analyst)"
-          - "Tableau"
+          - "Jupyter"
           - "Python"
+          - "Pandas"
 
       - title: Big Data Analytics of Yelp Reviews
         content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
