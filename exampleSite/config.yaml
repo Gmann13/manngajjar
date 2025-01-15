@@ -131,6 +131,7 @@ params:
     image: "/images/Mann2.jpg"
     content: |-
       I am a Highly skilled Data Analyst, Business Analyst and Machine learning enthusiast with extensive experience in data analysis, predictive modeling, and business intelligence. Proficient in SQL, Python, and advanced analytics tools, with expertise in designing data-driven solutions that enhance decision-making and operational efficiency. Proven ability to deliver impactful insights through data visualization and collaboration with cross-functional teams. Dedicated to driving innovation and solving complex business problems.
+    skills: 
       enable: true
       title: "My expertise spans across critical data analytics tools such as:"
       items:
