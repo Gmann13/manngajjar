@@ -234,18 +234,17 @@ params:
           - "Python"
           - "Pandas"
 
-      - title: Video Games Market Analysis
-        content: Utilized AWS cloud analytics tools to analyze extensive video game sales data, applying predictive modeling and comprehensive data visualization to uncover insights into sales trends, genre popularity, and regional market preferences, significantly enhancing the understanding of market dynamics and informing strategic decision-making in the video game industry.
+      - title: Inventory Management System
+        content: This project is a robust Inventory Management System designed to streamline inventory tracking, sales reporting, and transaction management. It includes the creation of a comprehensive database with an Entity-Relationship Diagram (ERD), well-structured tables, views for reporting (e.g., daily sales, stock, and customer transactions), and PL/SQL procedures for customer and supplier management. The system enforces security through user roles and permissions while providing actionable insights into sales trends, inventory levels, and customer behavior, making it an efficient solution for inventory operations.
         image: /images/projects/dashboard.png
         featured:
           name: View Project
-          link: https://github.com/manmitha-p/Video-Games-Market-Analysis
+          link: https://github.com/Gmann13/INVENTORY-MANAGEMENT-SYSTEM
         badges:
-          - "AWS S3"
-          - "AWS Glue (AWS Athena)"
-          - "QuickSight"
-          - "Amazon Sagemaker"
-          - "MS Excel"
+          - "Oracle PL/SQL"
+          - "SQL"
+          - "ERD Development"
+          - "PL/SQL"
 
       - title: Suicide Rates Overview (1985-2016)
         content: Developed a Power BI dashboard from scratch to analyze global suicide rates, processing over 12,000 data points. Utilized Power Query and DAX to transform and clean data, and created interactive visualizations for metrics such as suicide rates, HDI, GDP per capita, and country.
