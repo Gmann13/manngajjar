@@ -222,7 +222,7 @@ params:
           - "Python"
           - "Pandas"
 
-      - title: From Browsing to Buying: Predicting Purchase Intentions in Online Shoppers
+      - title: From Browsing to Buying- Predicting Purchase Intentions in Online Shoppers
         content:  This project leverages machine learning techniques to predict whether an online shopper will make a purchase using the Online Shoppers Purchasing Intention Dataset. By analyzing session data, including user behavior, engagement metrics, and temporal attributes, the project aims to provide actionable insights for e-commerce platforms. The best-performing model, Support Vector Machine (SVM), achieved an ROC AUC score of 0.92, highlighting its effectiveness in distinguishing between purchasing and non-purchasing sessions. This predictive capability can enhance marketing strategies, optimize customer engagement, and drive sales conversion rates.
         image: /images/projects/yelp.jpg
         featured:
