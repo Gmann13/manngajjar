@@ -109,7 +109,7 @@ params:
     title: "Mann."
     subtitle: "Data Analyst/Business Intelligence Analyst/Data Scientist/Machine learning Engineer"
     content: "A data analyst committed to using advanced analytics tools to uncover strategic insights, turning complex data into clear, actionable knowledge efficiently."
-    image: /images/myself.jpg
+    image: /images/Mann.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -128,7 +128,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/my.jpg"
+    image: "/images/Mann2.jpg"
     content: |-
       I am a Highly skilled Data Analyst, Business Analyst and Machine learning enthusiast with extensive experience in data analysis, predictive modeling, and business intelligence. Proficient in SQL, Python, and advanced analytics tools, with expertise in designing data-driven solutions that enhance decision-making and operational efficiency. Proven ability to deliver impactful insights through data visualization and collaboration with cross-functional teams. Dedicated to driving innovation and solving complex business problems.
       enable: true
@@ -246,60 +246,6 @@ params:
           - "SQL"
           - "ERD Development"
           - "PL/SQL"
-
-      - title: Suicide Rates Overview (1985-2016)
-        content: Developed a Power BI dashboard from scratch to analyze global suicide rates, processing over 12,000 data points. Utilized Power Query and DAX to transform and clean data, and created interactive visualizations for metrics such as suicide rates, HDI, GDP per capita, and country.
-        image: /images/projects/powerbi.jpg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Suicide-Rates-Overview
-        badges:
-          - "Power BI (Power Query, DAX)"
-          - "MS Excel"
-
-      - title: Flight Management System
-        content: The Flight Management System is a comprehensive application designed to streamline the flight booking process, offering features like web check-in, real-time baggage tracking, and personalized notifications, enhancing overall travel convenience and efficiency.
-        image: /images/projects/flight.jpg
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Flight-Management-System
-        badges:
-          - "SQL"
-          - "DBMS"
-          - "SQLite"
-
-      - title: NLP-Based Sentiment Analysis of Disneyland Experience
-        content: Conducted a detailed sentiment analysis on Disneyland reviews using NLTK and developed a Tableau dashboard to visualize key metrics, significantly improving decision-making and visitor satisfaction through insightful customer feedback evaluation.
-        image: /images/projects/disneycloud.png
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Disney-Land-Reviews-Analysis
-        badges:
-          - "Python"
-          - "NLP"
-          - "Tableau"
-
-      - title: Hotel Revenue Analysis
-        content: Designed an interactive Tableau dashboard for comprehensive hotel revenue analysis, enabling key stakeholders to dynamically explore data on occupancy, average daily rates, and booking trends, which informed revenue optimization strategies.
-        image: /images/projects/hotel.png
-        featured:
-          name: View Project
-          link: https://public.tableau.com/app/profile/manmitha.pantangi/viz/RevenueInsightsinHospitalityDomain_17025111772270/RevenueDashboard
-        badges:
-          - "Tableau"
-          - "Excel"
-
-      - title: Laptop Price Prediction
-        content: Developed a sophisticated laptop price prediction model using R, incorporating multiple regression techniques and achieving higher accuracy with Lasso and Ridge regression, demonstrating R-squares of 75% and 76% respectively.
-        image: /images/projects/laptop.png
-        featured:
-          name: View Project
-          link: https://github.com/manmitha-p/Laptop-Price-Prediction-
-        badges:
-          - "R"
-          - "Hypothesis Testing"
-          - "Regression"
-
 
   #Contact
   contact:
