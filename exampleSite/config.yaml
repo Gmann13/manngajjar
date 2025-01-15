@@ -222,17 +222,17 @@ params:
           - "Python"
           - "Pandas"
 
-      - title: Big Data Analytics of Yelp Reviews
-        content:  Leveraged big data tools to analyze over 1 million Yelp business records, applying k-means clustering to uncover insights into restaurant distribution and performance based on ratings and reviews, significantly enhancing operational efficiency.
+      - title: From Browsing to Buying: Predicting Purchase Intentions in Online Shoppers
+        content:  This project leverages machine learning techniques to predict whether an online shopper will make a purchase using the Online Shoppers Purchasing Intention Dataset. By analyzing session data, including user behavior, engagement metrics, and temporal attributes, the project aims to provide actionable insights for e-commerce platforms. The best-performing model, Support Vector Machine (SVM), achieved an ROC AUC score of 0.92, highlighting its effectiveness in distinguishing between purchasing and non-purchasing sessions. This predictive capability can enhance marketing strategies, optimize customer engagement, and drive sales conversion rates.
         image: /images/projects/yelp.jpg
         featured:
           name: View Project
-          link: https://github.com/manmitha-p/Yelp-Data-Analysis-for-Business-Performance-
+          link: https://github.com/Gmann13/Predicting-Purchase-Intentions-in-Online-Shoppers
         badges:
           - "Big Data"
-          - "Hadoop"
-          - "SQL"
-          - "PySpark"
+          - "Machine Learning"
+          - "Python"
+          - "Pandas"
 
       - title: Video Games Market Analysis
         content: Utilized AWS cloud analytics tools to analyze extensive video game sales data, applying predictive modeling and comprehensive data visualization to uncover insights into sales trends, genre popularity, and regional market preferences, significantly enhancing the understanding of market dynamics and informing strategic decision-making in the video game industry.
