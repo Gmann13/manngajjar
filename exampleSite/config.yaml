@@ -237,7 +237,7 @@ params:
 
       - title: Inventory Management System
         content: This project is a robust Inventory Management System designed to streamline inventory tracking, sales reporting, and transaction management. It includes the creation of a comprehensive database with an Entity-Relationship Diagram (ERD), well-structured tables, views for reporting (e.g., daily sales, stock, and customer transactions), and PL/SQL procedures for customer and supplier management. The system enforces security through user roles and permissions while providing actionable insights into sales trends, inventory levels, and customer behavior, making it an efficient solution for inventory operations.
-        image: /images/projects/Traffic Volume Prediction.jpg
+        image: /images/projects/Inventory Management System.jpeg
         featured:
           name: View Project
           link: https://github.com/Gmann13/INVENTORY-MANAGEMENT-SYSTEM
